@@ -1,0 +1,111 @@
+section{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+} 
+body{
+    padding: 50px 100px;
+}
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+    background-color: wheat;
+    padding: 50px;
+    border: 2px solid black;
+}
+.input-div{
+    display: inline-block;
+}
+.inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+}
+label{
+    font-size: 23px;
+}
+h2{
+    font-size: 30px;
+}
+.formula-sec {
+    display: inline-flex;
+    align-items: baseline;
+}
+.same-form {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+.hover-show{
+    display: none;
+}
+.form-sec:hover + .hover-show{
+    display: block;
+    transition: 3s ease 1s;
+}
+@media (min-width: 320px) and (max-width:425px){
+    body{
+        padding: 0px;
+    }
+    h1{
+        text-align: left;
+        font-size: 28px;
+    }
+    #container {
+        text-align: left;
+        padding: 0px;
+    }
+    label {
+        font-size: 26px;
+        margin: 10px;
+    }
+    .inp{
+        width: 85%;
+        max-width: 420px;
+    }
+    h2 {
+        font-size: 30px;
+        margin: 10px;
+    }
+    .formula-sec {
+        display: block;
+    }
+    .same-form{
+        margin: 10px;
+    }
+}
+@media (min-width: 425px) and (max-width:768px){
+    body{
+        padding: 0px;
+    }
+    h1{
+        text-align: left;
+        font-size: 28px;
+    }
+    #container {
+        text-align: left;
+        padding: 0px;
+    }
+    label {
+        font-size: 26px;
+        margin: 10px;
+    }
+    .inp{
+        width: 100%;
+        max-width: 360px;
+    }
+    h2 {
+        font-size: 30px;
+        margin: 10px;
+    }
+    .formula-sec {
+        display: flex;
+    }
+    .same-form{
+        margin: 10px;
+    }
+}

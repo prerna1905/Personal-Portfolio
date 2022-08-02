@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="main-section">
+        <div class="main-head">
+            <h2>Love Calculator</h2>
+        </div>
+        <div class="input_sec">
+            <input type="text" placeholder="Your Name" id="names" class="sameinput"> <span>+</span>
+            <input type="text" placeholder="Love Name" id="love" class="sameinput"> <br>
+            <button type="submit" id="clickme" onclick="calculate()">Click</button> <br>
+            <input type= "text" id="percent" placeholder="Love Percentage">
+        </div>
+        <div class="footer" id="foot1">
+              <h3>God Bless your Relationship</h3>
+        </div>
+    </section>
+    <script>
+        function calculate(){
+              var name = document.getElementById('names').value;
+              var lname = document.getElementById('love').value;
+              if (name == "") {
+                 alert("Please Enter your Name: 🙂");
+              }else if (name.length <=2 ){
+                  alert("Sorry!..Minimum length should be 3..");
+              }else if (!isNaN(name)){
+                  alert("Only Characters are allowed..");
+              }
+              else if (lname == "") {
+                 alert("Please Enter your love Name: 🙂");
+              }else if (lname.length <=2 ){
+                  alert("Sorry!..Minimum length should be 3..");
+              }else if (!isNaN(lname)){
+                  alert("Only Characters are allowed..");
+              }else{
+                  var lovedata = Math.floor(Math.random() * 100);
+                  document.getElementById("percent").value = lovedata + "%";
+                  document.getElementById("foot1").style.opacity = 1;
+                  if (lovedata>= 75) {
+                       alert("Congratulation...your relation too strong..: 👩‍❤️‍👨");
+                       document.body.style.backgroundColor = "red";
+                  }else if (lovedata > 50 && lovedata < 75){
+                      alert("I hope your relationship gets stronger day by day.. 👍");
+                      document.body.style.backgroundColor = "green";
+                  }else{
+                    alert("Oups!...Bad luck.. 🥲...God bless your relationship...");
+                    document.body.style.backgroundColor = "gray";
+                  }
+              }
+        }
+    </script>
+</body>
+</html>

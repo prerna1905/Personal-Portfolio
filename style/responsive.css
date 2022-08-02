@@ -1,0 +1,480 @@
+@media (max-width: 940px){
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        height: 100vh;
+        background-color: black;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    nav ul li{
+        margin: 40px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+    }
+    nav .menu-btn i{
+        display: block;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    nav .main-logo{
+        margin-left: -45px;
+    }
+}
+@media (min-width: 940px) and (max-width:1290px){
+   nav{
+    padding: 0px;
+   }
+   nav .main-logo {
+    font-size: 32px;
+   }
+   span{
+    font-size: 36px;
+   }
+   nav ul li {
+    margin: 14px 30px 0 30px;
+   }
+   nav ul li a{
+    font-size: 26px;
+   }
+}
+@media (min-width: 320px) and (max-width:425px){
+    .home-section{
+        padding-top: 0px;
+        display: block;
+    }
+    .home-content {
+        margin-left: 10px;
+    }
+    h3.hy-sec {
+        font-size: 39px;
+        font-weight: 100;
+    }
+    h1.hy-sec1 {
+        font-size: 36px;
+    }
+    span.name-part {
+        font-size: 38px;
+    }
+    h5.developer {
+        font-size: 37px;
+        font-weight: 100;
+    }
+    .para-sec {
+        font-size: 1.54em;
+    }
+    .cv-section {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .home-btn{
+        padding: 19px;
+        font-size: 23px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .home-img{
+        text-align: center;
+    }
+    .girly{
+        width: 80%;
+        transition: 2s ease-in-out 1s;
+        border-radius: 20%;
+    }
+    .head_common {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        background-color: white;
+        transition: all 0.3s ease;
+    }
+    .head_common:hover{
+        font-size: 35px;
+        color: crimson;
+    }
+    .about-section1 {
+        border: none;
+        text-align: center;
+        display: block;
+        margin: 10px;
+        background-color: white;
+        padding: 0;
+    }
+    .about-content {
+        font-size: 22px;
+        line-height: 29px;
+        margin-top: 20px;
+        text-align: justify;
+        margin-left: 0px;
+    }
+    .detail-heading{
+        font-weight: bold !important;
+    }
+    .table-section {
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+        margin-right: 0px;
+    }
+    table, tr, td {
+        padding: 7px;
+        font-size: 14px;
+        font-weight: 600;
+        border: 2px solid black;
+        margin: auto;
+    }
+    .contact-container{
+        margin-top: 15px;
+     }
+    .contact-container h1 {
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+    form {
+        margin-left: 0px;
+        display: inline-grid;
+        width: 74%;
+        max-width: 265px;
+    }
+    input, textarea {
+        padding: 11px;
+        background: transparent;
+        border: 2px solid black;
+        margin-bottom: 0px;
+    }
+    textarea {
+        height: 5rem;
+    }
+    .btn-contact {
+        width: 14rem;
+        padding: 1.4rem;
+        cursor: pointer !important;
+        background-color: crimson;
+        color: white;
+        margin-left: 0px;
+        margin-bottom: 6%;
+        border: 3px solid black;
+        font-size: 25px;
+        border-radius: 30px;
+    }
+    section.hire-section {
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+    .hire-content {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    a.hire-btn{
+        font-size: 25px;
+        padding: 15px;
+    } 
+    footer.footer-section {
+        font-size: 19px;
+    } 
+    a.footer-link{
+        font-size: 28px;
+    } 
+    .all_cards {
+        width: 100%;
+        max-width: 224px;
+        height: 360px;
+    }
+    .project_image {
+        width: 220px;
+    }
+    .project-content {
+        margin-top: 0px;
+        padding: 5px;
+    }
+    h4.main-project_heading {
+        font-size: 15px;
+    }
+    p.project_description {
+        margin-top: 0px;
+        font-size: 13px;
+        line-height: 21px;
+    }
+    a.link-project {
+        font-size: 20px;
+    }
+    .about-section1:hover{
+        background-color: #fff;
+   }
+}
+@media (min-width: 425px) and (max-width: 768px){
+    .home-section{
+        padding-top: 0px;
+        display: block;
+    }
+    .home-content {
+        margin-left: 40px;
+    }
+    h3.hy-sec {
+        font-size: 39px;
+        font-weight: 100;
+    }
+    h1.hy-sec1 {
+        font-size: 36px;
+    }
+    span.name-part {
+        font-size: 38px;
+    }
+    h5.developer {
+        font-size: 39px;
+        font-weight: 100;
+    }
+    .para-sec {
+        font-size: 1.49em;
+        line-height: 32px;
+    }
+    .cv-section {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .home-btn{
+        padding: 19px;
+        font-size: 23px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .home-img{
+        text-align: center;
+    }
+    .girly{
+        width: 80%;
+        transition: 2s ease-in-out 1s;
+        border-radius: 20%;
+    }
+    .head_common {
+        text-align: center;
+        font-size: 38px;
+        font-weight: 700;
+        background-color: white;
+    }
+    .about-section1 {
+        border: none;
+        text-align: center;
+        display: block;
+        margin: 20px;
+        background-color: white;
+        padding: 0;
+    }
+    .about-content {
+        font-size: 22px;
+        line-height: 29px;
+        margin-top: 20px;
+        text-align: justify;
+        margin-left: 15px;
+    }
+    .detail-heading{
+        font-weight: bold !important;
+    }
+    .table-section {
+        margin-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+        margin-right: 0px;
+    }
+    table, tr, td {
+        padding: 7px;
+        font-size: 14px;
+        font-weight: 600;
+        border: 2px solid black;
+        margin: auto;
+    }
+    .contact-container{
+        margin-top: 15px;
+     }
+    .contact-container h1 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    form {
+        margin-left: 0px;
+        display: inline-grid;
+        width: 90%;
+        max-width: 360px;
+    }
+    input, textarea {
+        padding: 11px;
+        background: transparent;
+        border: 2px solid black;
+        margin-bottom: 0px;
+    }
+    textarea {
+        height: 6rem;
+    }
+    .btn-contact {
+        width: 14rem;
+        padding: 1.4rem;
+        cursor: pointer !important;
+        background-color: crimson;
+        color: white;
+        margin-left: 0px;
+        margin-bottom: 6%;
+        border: 3px solid black;
+        font-size: 25px;
+        border-radius: 30px;
+    }
+    section.hire-section {
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+    .hire-content {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    a.hire-btn{
+        font-size: 25px;
+        padding: 15px;
+    }
+    footer.footer-section {
+        font-size: 19px;
+    } 
+    a.footer-link{
+        font-size: 28px;
+    }
+    .all_cards {
+        width: 100%;
+        max-width: 290px;
+        height: 460px;
+    }
+    .project_image {
+        width: 286px;
+    }
+    .project-content {
+        margin-top: 0px;
+        padding: 5px;
+    }
+    h4.main-project_heading {
+        font-size: 22px;
+    }
+    p.project_description {
+        margin-top: 0px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    a.link-project {
+        font-size: 24px;
+    }
+    .about-section1:hover{
+        background-color: #fff;
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .home-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+    }
+    h3.hy-sec {
+        font-size: 39px;
+    }
+    h1.hy-sec1{
+        font-size: 40px;
+    }
+    span.name-part {
+        font-size: 43px;
+    }
+    h5.developer{
+        font-size: 39px;
+    }
+    .para-sec {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .home-btn {
+        padding: 20px;
+        font-size: 23px;
+        margin-top: 10px;
+    }
+    .about-section1{
+        align-items: flex-start;
+    }
+    .about-content {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: justify;
+    }
+    table, tr, td {
+        margin-top: 15px;
+    }
+    .contact-container{
+        margin-top: 15px;
+     }
+    .contact-container h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    form {
+        margin-left: 0px;
+        display: inline-grid;
+        width: 100%;
+        max-width: 645px;
+    }
+    input, textarea {
+        padding: 22px;
+        background: transparent;
+        border: 2px solid black;
+        margin-bottom: 0px;
+    }
+    textarea {
+        height: 8rem;
+    }
+    .btn-contact {
+        width: 18rem;
+        padding: 30px;
+        cursor: pointer !important;
+        background-color: crimson;
+        color: white;
+        margin-left: 0px;
+        margin-bottom: 6%;
+        border: 3px solid black;
+        font-size: 32px;
+        border-radius: 30px;
+    }
+    a.hire-btn {
+        font-size: 31px;
+        padding: 26px;
+    }
+    footer.footer-section {
+        font-size: 30px;
+    } 
+    a.footer-link{
+        font-size: 35px;
+    }
+    .all_cards {
+        width: 100%;
+        max-width: 345px;
+        height: 515px;
+    }
+    .project_image {
+        width: 340px;
+    }
+    .project-content {
+        margin-top: 0px;
+        padding: 7px;
+    }
+    h4.main-project_heading {
+        font-size: 24px;
+    }
+    p.project_description {
+        margin-top: 0px;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    a.link-project {
+        font-size: 28px;
+    }
+}
+

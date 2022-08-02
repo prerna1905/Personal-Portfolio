@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <!-- Css link -->
+    <link rel="stylesheet" href="tempconvo.css">
+</head>
+<body>
+    <!-- Main Section -->
+    <section>
+        <!-- Main heading -->
+    <h1>Temperature Convertor</h1>
+    <!-- This contains celsius and fahrenheit -->
+    <div id="container">
+        <!-- Celsius Section -->
+        <div class="input-div">
+            <label >Celsius:</label><br>
+            <input type="number" value="0" id="cel" class="inp">
+        </div>
+        <!-- End Celsius Section -->
+        <!-- Fahrenheit Section -->
+        <div class="input-div">
+            <label >Fahrenheit:</label><br>
+            <input type="number" value="32" id="fah" class="inp">
+        </div>
+        <!-- End Fahrenheit Section -->
+        <h2>Formula :</h2>
+        <!-- This section contain formula of celsius and fahrenheit -->
+        <div class="formula-sec">
+            <!-- This formula of celsius to fahrenheit Conversion -->
+            <div class="same-form">
+                <h4 class="form-sec">Celsius to Fahrenheit:-</h4>
+                <p class="hover-show">(C * 9/5) + 32</p>
+            </div>
+            <!--This formula of celsius to fahrenheit Conversion -->
+            <div class="same-form">
+                <h4 class="form-sec">Fahrenheit to Celsius:-</h4>
+                <p class="hover-show">(F - 32) * 5/9</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Js Link -->
+    <script src="temp.js"></script>
+</body>
+</html>

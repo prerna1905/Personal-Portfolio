@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 64%;
+}
+body{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.main-head{
+    background-color: rgb(255, 0, 0);
+    width: 38vw;
+    text-align: center;
+    padding: 1.2rem 0;
+    border: 2px solid white;
+    box-shadow: 0 2px 12px #fff;
+    transition: all 0.3 ease-in-out;
+    font-size: 1.45rem;
+}
+.input_sec{
+    width: 38vw;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.sameinput{
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+::placeholder{
+    text-align: center;
+    font-weight: bold;
+}
+input{
+    text-align: center;
+}
+span{
+    font-size: 1.33rem;
+    font-weight: bold;
+}
+#clickme{
+    background-color: green;
+    width: 11vw;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-size: 1.34rem;
+    border: 0 solid;
+    cursor: pointer;
+}
+#percent{
+    margin-bottom: 2rem;
+    width: 11vw;
+    margin-left: 0%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 1.33rem;
+    font-weight: bold;
+}
+.footer{
+    width: 38vw;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.34rem;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+@media (min-width: 320px) and (max-width: 600px){
+    .main-head{
+        width: 100vw;
+    }
+    .input_sec{
+        width: 100vw;
+    }
+    .sameinput {
+        margin: 1.34rem;
+        padding: 0.88rem;
+        width: 37vw;
+        border: 1px solid black;
+    }
+    #clickme{
+        width: 60vw;
+    }
+    .footer{
+        width: 100vw;
+    }
+    #percent{
+        width: 45vw;
+        margin-left:4%;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px){
+    .main-head{
+        width: 70vw;
+    }
+    .input_sec{
+        width: 70vw;
+    }
+    .sameinput {
+        margin: 1.34rem;
+        padding: 0.88rem;
+        width: 29vw;
+        border: 1px solid black;
+    }
+    .footer{
+        width: 70vw;
+    }
+    #clickme{
+        width: 40vw;
+        font-size: 1.68rem;
+    }
+    #percent{
+        width: 30vw;
+        margin-left: 4%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1230px){
+    .main-head{
+        width: 70vw;
+    }
+    .input_sec{
+        width: 70vw;
+    }
+    .sameinput {
+        margin: 1.34rem;
+        padding: 0.88rem;
+        width: 29vw;
+        border: 1px solid black;
+    }
+    .footer{
+        width: 70vw;
+    }
+    #clickme{
+        width: 40vw;
+        font-size: 1.68rem;
+    }
+    #percent{
+        width: 30vw;
+        margin-left: 2%;
+    }
+}
